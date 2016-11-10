@@ -1,15 +1,19 @@
-//
-//  main.cpp
-//  Sudoku
-//
-//  Created by Daniel Leon on 2016-10-31.
-//  Copyright © 2016 Daniel Leon. All rights reserved.
-//
+#include "Sudoku.hpp"
+using namespace std;
 
-#include <iostream>
-
-int main(int argc, const char * argv[]) {
-	// insert code here...
-	std::cout << "Hello, World!\n";
+int main() {
+	/*Sudoku table2;
+	table2.readTableFromFile("table2.txt");
+		cout << table2 << endl;
+		table2.solveTable();
+	
+	Sudoku table3;
+	table3.readTableFromFile("table3.txt");
+	cout << table3.isTableComplete() << endl;*/
+	
+	Sudoku table4;
+	table4.readTableFromFile("table4.txt");
+	cout << table4 << endl;
+	table4.solveTable();
     return 0;
 }

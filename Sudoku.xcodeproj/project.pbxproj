@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		28ADFE211DC843D100F4D763 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28ADFE201DC843D100F4D763 /* main.cpp */; };
+		28ADFE291DC8443C00F4D763 /* Sudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28ADFE271DC8443C00F4D763 /* Sudoku.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		28ADFE1D1DC843D100F4D763 /* Sudoku */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sudoku; sourceTree = BUILT_PRODUCTS_DIR; };
 		28ADFE201DC843D100F4D763 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		28ADFE271DC8443C00F4D763 /* Sudoku.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sudoku.cpp; sourceTree = "<group>"; };
+		28ADFE281DC8443C00F4D763 /* Sudoku.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sudoku.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				28ADFE201DC843D100F4D763 /* main.cpp */,
+				28ADFE271DC8443C00F4D763 /* Sudoku.cpp */,
+				28ADFE281DC8443C00F4D763 /* Sudoku.hpp */,
 			);
 			path = Sudoku;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28ADFE291DC8443C00F4D763 /* Sudoku.cpp in Sources */,
 				28ADFE211DC843D100F4D763 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
